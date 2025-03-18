@@ -1,0 +1,230 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "content": "Content Calendar:\n- Blog Posts\n- Social Media\n- Newsletter\n- YouTube Videos",
+      "x": 150,
+      "y": 200,
+      "rotation": -2,
+      "zIndex": 1,
+      "color": "rgba(163, 217, 98, .95)",
+      "fontSize": 1.2,
+      "createdAt": "2025-01-19T11:28:27.673Z"
+    },
+    {
+      "id": 2,
+      "content": "Keywords & Tags:\n#contentcreation\n#digitalmarketing\n#socialmedia\n#blogging",
+      "x": 450,
+      "y": 250,
+      "rotation": 1,
+      "zIndex": 2,
+      "color": "rgba(77, 196, 205, .95)",
+      "fontSize": 1.2,
+      "createdAt": "2025-01-19T11:28:27.673Z"
+    },
+    {
+      "id": 3,
+      "content": "Content Ideas:\n- How-to Guides\n- Case Studies\n- Behind the Scenes\n- Expert Interviews",
+      "x": 750,
+      "y": 200,
+      "rotation": -1,
+      "zIndex": 3,
+      "color": "rgba(255, 120, 162, .95)",
+      "fontSize": 1.2,
+      "createdAt": "2025-01-19T11:28:27.673Z"
+    },
+    {
+      "id": 4,
+      "content": "Analytics:\n- Engagement Rate\n- Traffic Sources\n- Conversion Rate\n- Watch Time",
+      "x": 300,
+      "y": 450,
+      "rotation": 2,
+      "zIndex": 4,
+      "color": "rgba(255, 111, 97, .95)",
+      "fontSize": 1.2,
+      "createdAt": "2025-01-19T11:28:27.673Z"
+    },
+    {
+      "id": 5,
+      "content": "Tools & Resources:\n- Canva\n- Adobe Creative Suite\n- Buffer\n- Google Analytics",
+      "x": 600,
+      "y": 400,
+      "rotation": -3,
+      "zIndex": 5,
+      "color": "rgba(255, 197, 88, .95)",
+      "fontSize": 1.2,
+      "createdAt": "2025-01-19T11:28:27.673Z"
+    }
+  ],
+  "medias": [
+    {
+      "id": 1,
+      "src": "https://www.socialpilot.co/wp-content/uploads/2023/01/Social-Media-Calendar.png",
+      "type": "image",
+      "x": 200,
+      "y": 350,
+      "rotation": -1,
+      "zIndex": 6
+    },
+    {
+      "id": 2,
+      "src": "https://www.semrush.com/blog/static/media/e5/04/e504ef5d4c21504b1805814138045ae4/resize/1440/Social-Media-Analytics-Dashboard.png",
+      "type": "image",
+      "x": 500,
+      "y": 300,
+      "rotation": 1,
+      "zIndex": 7
+    },
+    {
+      "id": 3,
+      "src": "https://buffer.com/library/content/images/2023/10/instagram-content-calendar.png",
+      "type": "image",
+      "x": 800,
+      "y": 350,
+      "rotation": 2,
+      "zIndex": 8
+    }
+  ],
+  "pins": [
+    {
+      "id": "pin-1",
+      "parentId": 1,
+      "parentType": "note",
+      "x": 90,
+      "y": 5,
+      "rotation": 0
+    },
+    {
+      "id": "pin-2",
+      "parentId": 2,
+      "parentType": "note",
+      "x": 85,
+      "y": 5,
+      "rotation": 0
+    },
+    {
+      "id": "pin-3",
+      "parentId": 3,
+      "parentType": "note",
+      "x": 80,
+      "y": 5,
+      "rotation": 0
+    },
+    {
+      "id": "pin-4",
+      "parentId": 4,
+      "parentType": "note",
+      "x": 85,
+      "y": 5,
+      "rotation": 0
+    }
+  ],
+  "ropes": [
+    {
+      "id": "rope-1",
+      "startPin": {
+        "id": "pin-1",
+        "parentId": 1,
+        "parentType": "note",
+        "x": 90,
+        "y": 5,
+        "rotation": 0
+      },
+      "endPin": {
+        "id": "pin-2",
+        "parentId": 2,
+        "parentType": "note",
+        "x": 85,
+        "y": 5,
+        "rotation": 0
+      },
+      "points": [
+        {
+          "x": 240,
+          "y": 205
+        },
+        {
+          "x": 345,
+          "y": 227.5
+        },
+        {
+          "x": 450,
+          "y": 250
+        }
+      ],
+      "color": "rgba(68, 255, 68, .95)",
+      "zIndex": 9
+    },
+    {
+      "id": "rope-2",
+      "startPin": {
+        "id": "pin-2",
+        "parentId": 2,
+        "parentType": "note",
+        "x": 85,
+        "y": 5,
+        "rotation": 0
+      },
+      "endPin": {
+        "id": "pin-3",
+        "parentId": 3,
+        "parentType": "note",
+        "x": 80,
+        "y": 5,
+        "rotation": 0
+      },
+      "points": [
+        {
+          "x": 535,
+          "y": 255
+        },
+        {
+          "x": 642.5,
+          "y": 227.5
+        },
+        {
+          "x": 750,
+          "y": 200
+        }
+      ],
+      "color": "rgba(255, 68, 255, .95)",
+      "zIndex": 10
+    },
+    {
+      "id": "rope-3",
+      "startPin": {
+        "id": "pin-3",
+        "parentId": 3,
+        "parentType": "note",
+        "x": 80,
+        "y": 5,
+        "rotation": 0
+      },
+      "endPin": {
+        "id": "pin-4",
+        "parentId": 4,
+        "parentType": "note",
+        "x": 85,
+        "y": 5,
+        "rotation": 0
+      },
+      "points": [
+        {
+          "x": 830,
+          "y": 205
+        },
+        {
+          "x": 565,
+          "y": 327.5
+        },
+        {
+          "x": 300,
+          "y": 450
+        }
+      ],
+      "color": "rgba(68, 68, 255, .95)",
+      "zIndex": 11
+    }
+  ],
+  "maxZIndex": 12
+} 

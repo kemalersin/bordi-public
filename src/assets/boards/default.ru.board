@@ -1,0 +1,236 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "content": "Привет Bordi\nbordi.app",
+      "x": 100,
+      "y": 300,
+      "rotation": -2,
+      "zIndex": 1,
+      "color": "rgba(255, 197, 88, .95)",
+      "fontSize": 1.2
+    },
+    {
+      "id": 2,
+      "content": "Моя Красивая Доска",
+      "x": 469,
+      "y": 412,
+      "rotation": 1,
+      "zIndex": 4,
+      "color": "rgba(255, 120, 162, .95)",
+      "fontSize": 1.2
+    },
+    {
+      "id": 3,
+      "content": "Двойной клик\nПравый клик\nПеретащить",
+      "x": 827.8821975625489,
+      "y": 117.97912743219763,
+      "rotation": 0.5745876905674789,
+      "zIndex": 2,
+      "color": "rgba(163, 217, 98, .95)",
+      "fontSize": 1.2,
+      "isCompleted": true
+    }
+  ],
+  "medias": [
+    {
+      "id": 1,
+      "src": "https://picsum.photos/200/300",
+      "type": "image",
+      "x": 273,
+      "y": 470,
+      "rotation": -1,
+      "zIndex": 3
+    }
+  ],
+  "pins": [
+    {
+      "id": "pin-1736411043254",
+      "parentId": 3,
+      "parentType": "note",
+      "x": 6,
+      "y": 5,
+      "rotation": 0
+    },
+    {
+      "id": "pin-1736411172775",
+      "parentId": 2,
+      "parentType": "note",
+      "x": 84,
+      "y": 5,
+      "rotation": 0
+    },
+    {
+      "id": "pin-1736417625343",
+      "parentId": 1,
+      "parentType": "note",
+      "x": 92,
+      "y": 3,
+      "rotation": 0
+    }
+  ],
+  "ropes": [
+    {
+      "id": "rope-1736411174454",
+      "startPin": {
+        "id": "pin-1736411172775",
+        "parentId": 2,
+        "parentType": "note",
+        "x": 84,
+        "y": 5,
+        "rotation": 0
+      },
+      "endPin": {
+        "id": "pin-1736411043254",
+        "parentId": 3,
+        "parentType": "note",
+        "x": 6,
+        "y": 5,
+        "rotation": 0
+      },
+      "points": [
+        {
+          "x": 558,
+          "y": 413
+        },
+        {
+          "x": 592,
+          "y": 382,
+          "vx": 0.002,
+          "vy": 0.001
+        },
+        {
+          "x": 626,
+          "y": 354,
+          "vx": 0.006,
+          "vy": 0.001
+        },
+        {
+          "x": 660,
+          "y": 324,
+          "vx": 0.010,
+          "vy": 0
+        },
+        {
+          "x": 694,
+          "y": 291,
+          "vx": 0.012,
+          "vy": -0.002
+        },
+        {
+          "x": 729,
+          "y": 252,
+          "vx": 0.012,
+          "vy": -0.004
+        },
+        {
+          "x": 763,
+          "y": 210,
+          "vx": 0.009,
+          "vy": -0.004
+        },
+        {
+          "x": 797,
+          "y": 166,
+          "vx": 0.004,
+          "vy": -0.003
+        },
+        {
+          "x": 831,
+          "y": 125
+        }
+      ],
+      "color": "rgba(255, 255, 68, .95)",
+      "zIndex": 213
+    },
+    {
+      "id": "rope-1736417626743",
+      "startPin": {
+        "id": "pin-1736417625343",
+        "parentId": 1,
+        "parentType": "note",
+        "x": 92,
+        "y": 3,
+        "rotation": 0
+      },
+      "endPin": {
+        "id": "pin-1736411043254",
+        "parentId": 3,
+        "parentType": "note",
+        "x": 6,
+        "y": 5,
+        "rotation": 0
+      },
+      "points": [
+        {
+          "x": 193,
+          "y": 301
+        },
+        {
+          "x": 264,
+          "y": 286,
+          "vx": 0.003,
+          "vy": 0.002
+        },
+        {
+          "x": 334,
+          "y": 273,
+          "vx": 0.007,
+          "vy": 0.005
+        },
+        {
+          "x": 405,
+          "y": 260,
+          "vx": 0.011,
+          "vy": 0.007
+        },
+        {
+          "x": 476,
+          "y": 244,
+          "vx": 0.013,
+          "vy": 0.008
+        },
+        {
+          "x": 547,
+          "y": 224,
+          "vx": 0.013,
+          "vy": 0.008
+        },
+        {
+          "x": 618,
+          "y": 200,
+          "vx": 0.010,
+          "vy": 0.006
+        },
+        {
+          "x": 688,
+          "y": 174,
+          "vx": 0.006,
+          "vy": 0.003
+        },
+        {
+          "x": 759,
+          "y": 147,
+          "vx": 0.002,
+          "vy": 0.001
+        },
+        {
+          "x": 830,
+          "y": 123
+        }
+      ],
+      "color": "rgba(255, 68, 255, .95)",
+      "zIndex": 193
+    }
+  ],
+  "maxZIndex": 5,
+  "settings": {
+    "lastFont": {
+      "family": "'Caveat', cursive",
+      "size": 1.2
+    },
+    "background": {
+      "type": "transparent"
+    }
+  }
+} 

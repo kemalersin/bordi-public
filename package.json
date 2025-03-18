@@ -1,0 +1,169 @@
+{
+  "name": "bordi",
+  "private": true,
+  "version": "0.1.26",
+  "description": "Masaüstünüzü interaktif bir çalışma alanına dönüştüren sanal pano uygulaması",
+  "author": {
+    "name": "Kemal Ersin",
+    "email": "kemalersin@gmail.com"
+  },
+  "main": "dist-electron/main.js",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "electron:dev": "concurrently -k \"npm run dev\" \"wait-on tcp:5173 && tsc -p electron/tsconfig.json && electron .\"",
+    "electron:build": "tsc electron/main.ts --outDir dist-electron && vite build && electron-builder --dir -c.mac.identity=null",
+    "dist:win:portable": "tsc electron/main.ts --outDir dist-electron && vite build && electron-builder build --win -c.win.target=portable -p never",
+    "dist:win:nsis": "tsc electron/main.ts --outDir dist-electron && vite build && electron-builder build --win -c.win.target=nsis -p never",
+    "dist:win:appx": "tsc electron/main.ts --outDir dist-electron && vite build && electron-builder build --win -c.win.target=appx -p never",
+    "dist:win:all": "tsc electron/main.ts --outDir dist-electron && vite build && electron-builder build --win -c.win.target=\"portable nsis appx\" -p never",
+    "dist:mac": "tsc electron/main.ts --outDir dist-electron && vite build && electron-builder build --mac -p never",
+    "dist:all": "tsc electron/main.ts --outDir dist-electron && vite build && electron-builder build -mw -p never",
+    "postinstall": "electron-builder install-app-deps",
+    "icon-builder": "electron-icon-builder --input=./public/icon.png --output=./public"
+  },
+  "build": {
+    "appId": "com.kemalersin.bordi",
+    "productName": "Bordi",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "dist-electron/**/*",
+      {
+        "from": "src/assets",
+        "to": "assets",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "mac": {
+      "target": [
+        {
+          "target": "mas",
+          "arch": [
+            "universal"
+          ]
+        }
+      ],
+      "icon": "public/icons/mac/icon.icns",
+      "category": "public.app-category.productivity",
+      "extendInfo": {
+        "LSUIElement": "1"
+      }
+    },
+    "mas": {
+      "hardenedRuntime": false,
+      "entitlements": "build/entitlements.mas.plist",
+      "entitlementsInherit": "build/entitlements.mas.inherit.plist",
+      "provisioningProfile": "build/bordi-distribution.provisionprofile",
+      "type": "distribution"
+    },
+    "win": {
+      "target": [
+        "portable",
+        "nsis",
+        "appx"
+      ],
+      "artifactName": "${productName}-${version}-win.${ext}",
+      "icon": "public/icons/win/icon.ico",
+      "executableName": "Bordi",
+      "extraResources": [
+        {
+          "from": "public/icons/win/",
+          "to": ".",
+          "filter": [
+            "icon.ico"
+          ]
+        }
+      ]
+    },
+    "appx": {
+      "applicationId": "Bordi",
+      "identityName": "KemalErsin.Bordi",
+      "displayName": "Bordi",
+      "publisherDisplayName": "Kemal Ersin",
+      "publisher": "CN=5C47E19B-01D8-4A7D-8ED7-97BE22D11211",
+      "languages": [
+        "tr-TR",
+        "en-US",
+        "fr-FR",
+        "de-DE",
+        "es-ES",
+        "ja-JP",
+        "zh-CN",
+        "ru-RU",
+        "it-IT",
+        "ko-KR",
+        "pt-BR",
+        "pt-PT",
+        "vi-VN",
+        "id-ID",
+        "pl-PL",
+        "nl-NL"
+      ],
+      "backgroundColor": "transparent",
+      "showNameOnTiles": true,
+      "artifactName": "${productName}-${version}-${arch}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "deleteAppDataOnUninstall": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Bordi",
+      "installerIcon": "public/icons/win/icon.ico",
+      "uninstallerIcon": "public/icons/win/icon.ico",
+      "installerHeaderIcon": "public/icons/win/icon.ico"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "artifactName": "${productName}-${version}-linux.${ext}",
+      "icon": "public/icons/png/512x512.png",
+      "category": "Office"
+    }
+  },
+  "dependencies": {
+    "@electron/remote": "^2.1.2",
+    "electron-is-dev": "^2.0.0",
+    "express": "^4.21.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.6",
+    "react-icons": "^5.4.0",
+    "react-player": "^2.16.0",
+    "styled-components": "^6.1.8",
+    "vite": "^5.0.8",
+    "wait-on": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "electron": "^28.1.0",
+    "electron-builder": "^25.1.8",
+    "electron-icon-builder": "^2.0.1",
+    "electron-reloader": "^1.2.3",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "terser": "^5.37.0",
+    "typescript": "^5.2.2"
+  }
+}

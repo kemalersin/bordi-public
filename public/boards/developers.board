@@ -1,0 +1,403 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "content": "Sprint Goals:\n- API Integration\n- Unit Tests\n- Performance Optimization\n- Documentation",
+      "x": 100,
+      "y": 200,
+      "rotation": -2,
+      "zIndex": 1,
+      "color": "rgba(77, 196, 205, .95)",
+      "fontSize": 1.2,
+      "createdAt": "2025-01-19T11:28:27.673Z"
+    },
+    {
+      "id": 2,
+      "content": "Code Review Checklist:\n- Clean Code Principles\n- Error Handling\n- Documentation\n- Test Coverage",
+      "x": 400,
+      "y": 300,
+      "rotation": 1,
+      "zIndex": 62,
+      "color": "rgba(163, 217, 98, .95)",
+      "fontSize": 1.2,
+      "createdAt": "2025-01-19T11:28:27.673Z"
+    },
+    {
+      "id": 3,
+      "content": "Bug Tracking:\n#123 - Memory Leak\n#124 - UI Glitch\n#125 - API Timeout\n#126 - Cache Issue",
+      "x": 700,
+      "y": 150,
+      "rotation": -1,
+      "zIndex": 64,
+      "color": "rgba(255, 111, 97, .95)",
+      "fontSize": 1.2,
+      "createdAt": "2025-01-19T11:28:27.673Z"
+    },
+    {
+      "id": 4,
+      "content": "Tech Stack:\n- React + TypeScript\n- Node.js\n- MongoDB\n- Docker",
+      "x": 300,
+      "y": 500,
+      "rotation": 2,
+      "zIndex": 4,
+      "color": "rgba(255, 120, 162, .95)",
+      "fontSize": 1.2,
+      "createdAt": "2025-01-19T11:28:27.673Z"
+    },
+    {
+      "id": 5,
+      "content": "Git Commands:\ngit checkout -b feature\ngit commit -m 'feat:'\ngit rebase main\ngit push origin",
+      "x": 600,
+      "y": 400,
+      "rotation": -3,
+      "zIndex": 122,
+      "color": "rgba(255, 197, 88, .95)",
+      "fontSize": 1.1,
+      "createdAt": "2025-01-19T11:28:27.673Z"
+    },
+    {
+      "id": 1737288685986,
+      "content": "developer.mozilla.org\nstackoverflow.com\nwww.w3schools.com\ncss-tricks.com\nfreecodecamp.org\ncodecademy.com\ngithub.com\ndev.to",
+      "x": 1481.2645113751419,
+      "y": 616.0202336309424,
+      "rotation": -1.4723671852379372,
+      "zIndex": 219,
+      "color": "rgba(255, 197, 88, .95)",
+      "fontSize": 1.0999999999999999,
+      "isCompleted": false,
+      "createdAt": "2025-01-19T12:11:25.986Z"
+    }
+  ],
+  "medias": [
+    {
+      "id": 1,
+      "src": "https://code.visualstudio.com/assets/home/swimlane-chat-light.webp",
+      "type": "image",
+      "x": 56,
+      "y": 417,
+      "rotation": -1,
+      "zIndex": 80
+    },
+    {
+      "id": 2,
+      "src": "https://res.cloudinary.com/practicaldev/image/fetch/s--iHmauk7i--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/i/46g9ty1b7s4w5z8s7fwn.png",
+      "type": "image",
+      "x": 452,
+      "y": 616,
+      "rotation": 1,
+      "zIndex": 76
+    },
+    {
+      "id": 3,
+      "src": "https://thedigitalprojectmanager.com/wp-content/uploads/2023/07/Efficient-Burndown-Chart-1024x640.png",
+      "type": "image",
+      "x": 853,
+      "y": 341,
+      "rotation": 2,
+      "zIndex": 72
+    },
+    {
+      "id": 1737288351443,
+      "src": "file://C:\\Users\\kemal\\Downloads\\vid-relax-1.mp4",
+      "type": "video",
+      "x": 1177.8908356438164,
+      "y": 141.4286635946512,
+      "rotation": -0.8847148836995213,
+      "zIndex": 111,
+      "aspectRatio": "16:9",
+      "localFilePath": "C:\\Users\\kemal\\Downloads\\vid-relax-1.mp4",
+      "width": 300,
+      "height": 169
+    },
+    {
+      "id": 1737288437447,
+      "src": "file://C:\\Users\\kemal\\Downloads\\vid-relax-2.mp4",
+      "type": "video",
+      "x": 1314.18612626322,
+      "y": 268.03119002400706,
+      "rotation": 1.580776950684105,
+      "zIndex": 113,
+      "aspectRatio": "16:9",
+      "localFilePath": "C:\\Users\\kemal\\Downloads\\vid-relax-2.mp4",
+      "width": 300,
+      "height": 169
+    },
+    {
+      "id": 1737288462804,
+      "src": "file://C:\\Users\\kemal\\Downloads\\vid-relax-3.mp4",
+      "type": "video",
+      "x": 1182.6006476919606,
+      "y": 398.5847188601434,
+      "rotation": 0.34043256882788775,
+      "zIndex": 115,
+      "aspectRatio": "16:9",
+      "localFilePath": "C:\\Users\\kemal\\Downloads\\vid-relax-3.mp4",
+      "width": 300,
+      "height": 169
+    },
+    {
+      "id": 1737288533457,
+      "src": "https://www.youtube.com/watch?v=pBy1zgt0XPc",
+      "type": "video",
+      "x": 948.1251379243795,
+      "y": 652.7225452779155,
+      "rotation": 0.8876370202644903,
+      "zIndex": 217,
+      "aspectRatio": "16:9"
+    }
+  ],
+  "pins": [
+    {
+      "id": "pin-1",
+      "parentId": 1,
+      "parentType": "note",
+      "x": 90,
+      "y": 5,
+      "rotation": 0
+    },
+    {
+      "id": "pin-2",
+      "parentId": 2,
+      "parentType": "note",
+      "x": 85,
+      "y": 5,
+      "rotation": 0
+    },
+    {
+      "id": "pin-3",
+      "parentId": 3,
+      "parentType": "note",
+      "x": 80,
+      "y": 5,
+      "rotation": 0
+    },
+    {
+      "id": "pin-4",
+      "parentId": 1,
+      "parentType": "media",
+      "x": 95,
+      "y": 5,
+      "rotation": 0
+    },
+    {
+      "id": "pin-1737288548083",
+      "parentId": 1737288533457,
+      "parentType": "media",
+      "x": 154.8748779296875,
+      "y": 2.2774658203125,
+      "rotation": 0
+    },
+    {
+      "id": "pin-1737288571557",
+      "parentId": 5,
+      "parentType": "note",
+      "x": 86,
+      "y": 3,
+      "rotation": 0
+    }
+  ],
+  "ropes": [
+    {
+      "id": "rope-1",
+      "startPin": {
+        "id": "pin-1",
+        "parentId": 1,
+        "parentType": "note",
+        "x": 90,
+        "y": 5,
+        "rotation": 0
+      },
+      "endPin": {
+        "id": "pin-2",
+        "parentId": 2,
+        "parentType": "note",
+        "x": 85,
+        "y": 5,
+        "rotation": 0
+      },
+      "points": [
+        {
+          "x": 191.40349233791707,
+          "y": 206.96769381887825
+        },
+        {
+          "x": 239.84038179119065,
+          "y": 230.60339031353553,
+          "vx": -2.1321467978731696e-14,
+          "vy": 4.1293357622151744e-15
+        },
+        {
+          "x": 288.27727124446426,
+          "y": 255.17618165490404,
+          "vx": -1.804242135918213e-14,
+          "vy": -4.069036774190223e-15
+        },
+        {
+          "x": 336.71416069773784,
+          "y": 275.03195816694733,
+          "vx": 2e-323,
+          "vy": 1.1264461585724892e-14
+        },
+        {
+          "x": 385.1510501510114,
+          "y": 287.2594481819369,
+          "vx": -1.2280199198939636e-14,
+          "vy": 1.6481468967377503e-14
+        },
+        {
+          "x": 433.587939604285,
+          "y": 294.7699233676012,
+          "vx": -1.9547063550597808e-14,
+          "vy": 1.5908246941975713e-14
+        },
+        {
+          "x": 482.0248290575585,
+          "y": 303.21749339997683
+        }
+      ],
+      "color": "rgba(68, 255, 68, .95)",
+      "zIndex": 63
+    },
+    {
+      "id": "rope-2",
+      "startPin": {
+        "id": "pin-2",
+        "parentId": 2,
+        "parentType": "note",
+        "x": 85,
+        "y": 5,
+        "rotation": 0
+      },
+      "endPin": {
+        "id": "pin-3",
+        "parentId": 3,
+        "parentType": "note",
+        "x": 80,
+        "y": 5,
+        "rotation": 0
+      },
+      "points": [
+        {
+          "x": 491.0064415812181,
+          "y": 302.5267485289077
+        },
+        {
+          "x": 538.1718477016306,
+          "y": 285.9645965988123,
+          "vx": 4.042061560866956e-14,
+          "vy": 1.4816758930891064e-14
+        },
+        {
+          "x": 585.337253822043,
+          "y": 270.33953951542816,
+          "vx": -2.5244596977806068e-14,
+          "vy": 8.789913241713476e-15
+        },
+        {
+          "x": 632.5026599424555,
+          "y": 249.99746760271879,
+          "vx": 1.2068863330146867e-14,
+          "vy": -9.10056752179142e-15
+        },
+        {
+          "x": 679.668066062868,
+          "y": 222.02710919295572,
+          "vx": -4.8167918495324204e-15,
+          "vy": 2.770700335830154e-16
+        },
+        {
+          "x": 726.8334721832805,
+          "y": 189.3397359538674,
+          "vx": -3.909412710119573e-14,
+          "vy": -7.454939443540753e-15
+        },
+        {
+          "x": 773.9988783036929,
+          "y": 157.58945756149035
+        }
+      ],
+      "color": "rgba(255, 68, 68, .95)",
+      "zIndex": 65
+    },
+    {
+      "id": "rope-1737288573644",
+      "startPin": {
+        "id": "pin-1737288571557",
+        "parentId": 5,
+        "parentType": "note",
+        "x": 86,
+        "y": 3,
+        "rotation": 0
+      },
+      "endPin": {
+        "id": "pin-1737288548083",
+        "parentId": 1737288533457,
+        "parentType": "media",
+        "x": 154.8748779296875,
+        "y": 2.2774658203125,
+        "rotation": 0
+      },
+      "points": [
+        {
+          "x": 685.2832881892301,
+          "y": 406.4360158029325
+        },
+        {
+          "x": 731.4842752653258,
+          "y": 438.3813907323949,
+          "vx": 0.005923039809046088,
+          "vy": -0.0009264005720367604
+        },
+        {
+          "x": 777.666385079077,
+          "y": 472.1848261663847,
+          "vx": -0.0039015779798317633,
+          "vy": 0.0007577614507488565
+        },
+        {
+          "x": 823.8143638610849,
+          "y": 505.9925764082055,
+          "vx": -0.02335866455675724,
+          "vy": 0.00405147211144363
+        },
+        {
+          "x": 869.9266056194543,
+          "y": 537.3418092689373,
+          "vx": -0.0429658047531129,
+          "vy": 0.007349423491544244
+        },
+        {
+          "x": 916.0154347470904,
+          "y": 564.6663657625069,
+          "vx": -0.05375409217687825,
+          "vy": 0.009113923936543917
+        },
+        {
+          "x": 962.1009022176129,
+          "y": 587.9627954580448,
+          "vx": -0.0513498965251243,
+          "vy": 0.008615736061205663
+        },
+        {
+          "x": 1008.2011862928814,
+          "y": 608.7920546504273,
+          "vx": -0.0375851206893992,
+          "vy": 0.006217237368845052
+        },
+        {
+          "x": 1054.3247632866703,
+          "y": 629.6158978359275,
+          "vx": -0.018456894256542695,
+          "vy": 0.0029952934376031924
+        },
+        {
+          "x": 1100.4692911899538,
+          "y": 652.2911639792359
+        }
+      ],
+      "color": "rgba(255, 255, 68, .95)",
+      "zIndex": 218
+    }
+  ],
+  "maxZIndex": 220
+}

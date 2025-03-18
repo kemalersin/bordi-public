@@ -1,0 +1,8 @@
+export const NOTE_DEFAULT_WIDTH = 200;
+export const NOTE_DEFAULT_HEIGHT = 200; 
+export const PHOTO_DEFAULT_WIDTH = 220;
+export const PHOTO_DEFAULT_HEIGHT = 260; 
+export const VIDEO_DEFAULT_WIDTH = 340;
+export const VIDEO_DEFAULT_HEIGHT = 220; 
+export const VIDEO_DEFAULT_WIDTH_LOCAL = 300; 
+export const VIDEO_DEFAULT_HEIGHT_LOCAL = 260; 

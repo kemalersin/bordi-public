@@ -1,0 +1,190 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "content": "Color Palette:\n#2D3436 - Primary\n#636E72 - Secondary\n#00B894 - Success\n#FF7675 - Danger",
+      "x": 150,
+      "y": 200,
+      "rotation": -2,
+      "zIndex": 1,
+      "color": "rgba(255, 197, 88, .95)",
+      "fontSize": 1.2
+    },
+    {
+      "id": 2,
+      "content": "UI Components:\n- Navigation Bar\n- Hero Section\n- Feature Cards\n- Footer Layout",
+      "x": 450,
+      "y": 250,
+      "rotation": 1,
+      "zIndex": 2,
+      "color": "rgba(255, 120, 162, .95)",
+      "fontSize": 1.2
+    },
+    {
+      "id": 3,
+      "content": "Design System:\n- Typography Scale\n- Spacing Units\n- Grid System\n- Shadow Levels",
+      "x": 750,
+      "y": 200,
+      "rotation": -1,
+      "zIndex": 3,
+      "color": "rgba(77, 196, 205, .95)",
+      "fontSize": 1.2
+    },
+    {
+      "id": 4,
+      "content": "User Research:\n- Pain Points\n- User Journey\n- Personas\n- Feedback",
+      "x": 300,
+      "y": 450,
+      "rotation": 2,
+      "zIndex": 4,
+      "color": "rgba(163, 217, 98, .95)",
+      "fontSize": 1.2
+    },
+    {
+      "id": 5,
+      "content": "Design Tools:\n- Figma\n- Adobe XD\n- Sketch\n- InVision",
+      "x": 600,
+      "y": 400,
+      "rotation": -3,
+      "zIndex": 5,
+      "color": "rgba(255, 111, 97, .95)",
+      "fontSize": 1.2
+    }
+  ],
+  "medias": [
+    {
+      "id": 1,
+      "src": "https://cdn.dribbble.com/userupload/10591531/file/original-0c14504bd291115168c1fec87e8d527c.png?resize=1024x768",
+      "type": "image",
+      "x": 200,
+      "y": 350,
+      "rotation": -1,
+      "zIndex": 6
+    },
+    {
+      "id": 2,
+      "src": "https://cdn.dribbble.com/userupload/10591532/file/original-57c9e2f7c936fb7c5d8a96844fdb6e38.png?resize=1024x768",
+      "type": "image",
+      "x": 500,
+      "y": 300,
+      "rotation": 1,
+      "zIndex": 7
+    },
+    {
+      "id": 3,
+      "src": "https://cdn.dribbble.com/userupload/10591533/file/original-6bf5b6b4d4f8de3c7f6b1e3ca8c7168d.png?resize=1024x768",
+      "type": "image",
+      "x": 800,
+      "y": 350,
+      "rotation": 2,
+      "zIndex": 8
+    }
+  ],
+  "pins": [
+    {
+      "id": "pin-1",
+      "parentId": 1,
+      "parentType": "note",
+      "x": 90,
+      "y": 5,
+      "rotation": 0
+    },
+    {
+      "id": "pin-2",
+      "parentId": 2,
+      "parentType": "note",
+      "x": 85,
+      "y": 5,
+      "rotation": 0
+    },
+    {
+      "id": "pin-3",
+      "parentId": 3,
+      "parentType": "note",
+      "x": 80,
+      "y": 5,
+      "rotation": 0
+    },
+    {
+      "id": "pin-4",
+      "parentId": 1,
+      "parentType": "media",
+      "x": 95,
+      "y": 5,
+      "rotation": 0
+    }
+  ],
+  "ropes": [
+    {
+      "id": "rope-1",
+      "startPin": {
+        "id": "pin-1",
+        "parentId": 1,
+        "parentType": "note",
+        "x": 90,
+        "y": 5,
+        "rotation": 0
+      },
+      "endPin": {
+        "id": "pin-2",
+        "parentId": 2,
+        "parentType": "note",
+        "x": 85,
+        "y": 5,
+        "rotation": 0
+      },
+      "points": [
+        {
+          "x": 240,
+          "y": 205
+        },
+        {
+          "x": 345,
+          "y": 227.5
+        },
+        {
+          "x": 450,
+          "y": 250
+        }
+      ],
+      "color": "rgba(68, 255, 255, .95)",
+      "zIndex": 9
+    },
+    {
+      "id": "rope-2",
+      "startPin": {
+        "id": "pin-2",
+        "parentId": 2,
+        "parentType": "note",
+        "x": 85,
+        "y": 5,
+        "rotation": 0
+      },
+      "endPin": {
+        "id": "pin-3",
+        "parentId": 3,
+        "parentType": "note",
+        "x": 80,
+        "y": 5,
+        "rotation": 0
+      },
+      "points": [
+        {
+          "x": 535,
+          "y": 255
+        },
+        {
+          "x": 642.5,
+          "y": 227.5
+        },
+        {
+          "x": 750,
+          "y": 200
+        }
+      ],
+      "color": "rgba(255, 68, 255, .95)",
+      "zIndex": 10
+    }
+  ],
+  "maxZIndex": 11
+} 
