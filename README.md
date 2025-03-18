@@ -6,8 +6,6 @@
 
 Bordi, masaüstünüzü interaktif bir çalışma alanına dönüştüren, şeffaf ve modern bir sanal pano uygulamasıdır. Electron ve React teknolojileri ile geliştirilmiş bu uygulama, notlarınızı ve medya dosyalarınızı özgürce düzenlemenize olanak tanır.
 
-![Bordi Screenshot](docs/screenshot.png)
-
 ## 🌟 Özellikler
 
 ### 📝 Not ve Medya Yönetimi
